@@ -1,8 +1,8 @@
 <template>
     <div class="flex flex-col gap-7 md:flex-row flex-wrap">
         <Card
-            img-src="../assets/images/html-image.avif"
-            author-src="../assets/images/image-avatar.webp"
+            img-src="../../assets/images/html-image.avif"
+            author-src="../../assets/images/image-avatar.webp"
             :tags="['Learning', 'HTML', 'CSS']"
         >
             <template #published>21 Dec 2023</template>
@@ -15,8 +15,8 @@
         </Card>
 
         <Card
-            img-src="../assets/images/javascript-image.jpg"
-            author-src="../assets/images/avatar2.jpg"
+            img-src="../../assets/images/javascript-image.jpg"
+            author-src="../../assets/images/avatar2.jpg"
             :tags="['Tutorial', 'Javascript']"
         >
             <template #published>29 Nov 2023</template>
@@ -30,8 +30,8 @@
         </Card>
 
         <Card
-            img-src="../assets/images/black-white-image.avif"
-            author-src="../assets/images/avatar3.png"
+            img-src="../../assets/images/black-white-image.avif"
+            author-src="../../assets/images/avatar3.png"
             :tags="['Learning', 'Images', 'CSS', 'Filters']"
         >
             <template #published>10 Aug 2023</template>
